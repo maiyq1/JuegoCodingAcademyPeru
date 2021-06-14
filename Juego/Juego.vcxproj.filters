@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Clases">
+      <UniqueIdentifier>{a37bfcb8-faf0-40f2-8fae-ac467efed086}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencias.h" />
+    <ClInclude Include="Entidad.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="Jugador.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="Juego.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstaculo.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
